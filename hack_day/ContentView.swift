@@ -7,18 +7,45 @@
 
 import SwiftUI
 import YOLO
+import AVFoundation
 
 struct ContentView: View {
-    var body: some View {
-        YOLOCamera(modelPathOrName:"m_best",
-                   task: .detect,
-                   cameraPosition: .back)
-    }
-}
+    @State private var yoloResult: YOLOResult?
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    var body: some View {
+        ZStack {
+            // このラッパーViewはそのまま使用します
+            YOLOResultView(
+                result: $yoloResult,
+                modelPathOrName: "m_best",
+                task: .detect,
+                cameraPosition: .back
+            )
+            .ignoresSafeArea()
+
+            VStack {
+                Spacer()
+
+                if let result = yoloResult, !result.boxes.isEmpty {
+                    // 👇 boxが持つプロパティを直接使います
+                    let summaryText = "検出数: \(result.boxes.count)\n" +
+                                      result.boxes.map { box in
+                                          // box.cls でクラス名を、box.conf で信頼度を取得
+                                          let className = box.cls
+                                          let confidence = String(format: "%.0f", box.conf * 100)
+                                          return "\(className) (\(confidence)%)"
+                                      }.joined(separator: ", ")
+
+                    Text(summaryText)
+                        .font(.caption)
+                        .padding()
+                        .background(Color.black.opacity(0.6))
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                        .padding(.bottom)
+                }
+            }
+        }
     }
 }
 

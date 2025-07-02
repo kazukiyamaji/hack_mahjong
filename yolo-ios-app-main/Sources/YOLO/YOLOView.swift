@@ -92,7 +92,7 @@ public class YOLOView: UIView, VideoCaptureDelegate {
     }
   }
 
-  var onDetection: ((YOLOResult) -> Void)?
+  public var onDetection: ((YOLOResult) -> Void)?
   private var videoCapture: VideoCapture
   private var busy = false
   private var currentBuffer: CVPixelBuffer?

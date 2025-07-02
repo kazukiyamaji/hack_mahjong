@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19BDCD192E14F6E10013ACFA /* YOLOResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BDCD182E14F6D40013ACFA /* YOLOResultView.swift */; };
+		19BDCD7C2E14FC800013ACFA /* YOLO in Frameworks */ = {isa = PBXBuildFile; productRef = 19BDCD7B2E14FC800013ACFA /* YOLO */; };
 		9D8D982C2E12CF4600A8277B /* m_best.pt in Resources */ = {isa = PBXBuildFile; fileRef = 9D8D982B2E12CF4600A8277B /* m_best.pt */; };
 		9D8D982E2E12CF8500A8277B /* yolo11n.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D982D2E12CF8500A8277B /* yolo11n.mlpackage */; };
 		9D8D98362E12D5F500A8277B /* m_best.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D98352E12D5F500A8277B /* m_best.mlpackage */; };
@@ -20,6 +22,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		19BDCD362E14F8760013ACFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19BDCD312E14F8760013ACFA /* YOLOiOSApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7BCB411721C3096100BFC4D0;
+			remoteInfo = YOLOiOSApp;
+		};
+		19BDCD532E14F8980013ACFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19BDCD4E2E14F8980013ACFA /* YOLOiOSApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7BCB411721C3096100BFC4D0;
+			remoteInfo = YOLOiOSApp;
+		};
 		9DF2ABBF2E12B8B3000EC00D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9DF2ABA62E12B8B2000EC00D /* Project object */;
@@ -37,6 +53,77 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19BDCD182E14F6D40013ACFA /* YOLOResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOResultView.swift; sourceTree = "<group>"; };
+		19BDCD1B2E14F8760013ACFA /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		19BDCD1D2E14F8760013ACFA /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		19BDCD1F2E14F8760013ACFA /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		19BDCD212E14F8760013ACFA /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		19BDCD232E14F8760013ACFA /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		19BDCD252E14F8760013ACFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19BDCD262E14F8760013ACFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19BDCD272E14F8760013ACFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BDCD282E14F8760013ACFA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19BDCD292E14F8760013ACFA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		19BDCD2A2E14F8760013ACFA /* ModelDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDownloadManager.swift; sourceTree = "<group>"; };
+		19BDCD2B2E14F8760013ACFA /* RemoteModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteModels.swift; sourceTree = "<group>"; };
+		19BDCD2C2E14F8760013ACFA /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		19BDCD2D2E14F8760013ACFA /* ultralytics_yolo_logotype.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ultralytics_yolo_logotype.png; sourceTree = "<group>"; };
+		19BDCD2E2E14F8760013ACFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19BDCD302E14F8760013ACFA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		19BDCD312E14F8760013ACFA /* YOLOiOSApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = YOLOiOSApp.xcodeproj; sourceTree = "<group>"; };
+		19BDCD382E14F8980013ACFA /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		19BDCD3A2E14F8980013ACFA /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		19BDCD3C2E14F8980013ACFA /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		19BDCD3E2E14F8980013ACFA /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		19BDCD402E14F8980013ACFA /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		19BDCD422E14F8980013ACFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19BDCD432E14F8980013ACFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19BDCD442E14F8980013ACFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BDCD452E14F8980013ACFA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19BDCD462E14F8980013ACFA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		19BDCD472E14F8980013ACFA /* ModelDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDownloadManager.swift; sourceTree = "<group>"; };
+		19BDCD482E14F8980013ACFA /* RemoteModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteModels.swift; sourceTree = "<group>"; };
+		19BDCD492E14F8980013ACFA /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		19BDCD4A2E14F8980013ACFA /* ultralytics_yolo_logotype.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ultralytics_yolo_logotype.png; sourceTree = "<group>"; };
+		19BDCD4B2E14F8980013ACFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19BDCD4D2E14F8980013ACFA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		19BDCD4E2E14F8980013ACFA /* YOLOiOSApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = YOLOiOSApp.xcodeproj; sourceTree = "<group>"; };
+		19BDCD552E14FB770013ACFA /* BasePredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePredictor.swift; sourceTree = "<group>"; };
+		19BDCD562E14FB770013ACFA /* BoundingBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBoxView.swift; sourceTree = "<group>"; };
+		19BDCD572E14FB770013ACFA /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
+		19BDCD582E14FB770013ACFA /* NonMaxSuppression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonMaxSuppression.swift; sourceTree = "<group>"; };
+		19BDCD592E14FB770013ACFA /* ObbDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObbDetector.swift; sourceTree = "<group>"; };
+		19BDCD5A2E14FB770013ACFA /* ObjectDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetector.swift; sourceTree = "<group>"; };
+		19BDCD5B2E14FB770013ACFA /* Plot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plot.swift; sourceTree = "<group>"; };
+		19BDCD5C2E14FB770013ACFA /* PoseEstimater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseEstimater.swift; sourceTree = "<group>"; };
+		19BDCD5D2E14FB770013ACFA /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
+		19BDCD5E2E14FB770013ACFA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		19BDCD5F2E14FB770013ACFA /* Segmenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segmenter.swift; sourceTree = "<group>"; };
+		19BDCD602E14FB770013ACFA /* ThresholdProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdProvider.swift; sourceTree = "<group>"; };
+		19BDCD612E14FB770013ACFA /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		19BDCD622E14FB770013ACFA /* YOLO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLO.swift; sourceTree = "<group>"; };
+		19BDCD632E14FB770013ACFA /* YOLOCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOCamera.swift; sourceTree = "<group>"; };
+		19BDCD642E14FB770013ACFA /* YOLOResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOResult.swift; sourceTree = "<group>"; };
+		19BDCD652E14FB770013ACFA /* YOLOTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOTask.swift; sourceTree = "<group>"; };
+		19BDCD662E14FB770013ACFA /* YOLOView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOView.swift; sourceTree = "<group>"; };
+		19BDCD682E14FC6D0013ACFA /* BasePredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePredictor.swift; sourceTree = "<group>"; };
+		19BDCD692E14FC6D0013ACFA /* BoundingBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBoxView.swift; sourceTree = "<group>"; };
+		19BDCD6A2E14FC6D0013ACFA /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
+		19BDCD6B2E14FC6D0013ACFA /* NonMaxSuppression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonMaxSuppression.swift; sourceTree = "<group>"; };
+		19BDCD6C2E14FC6D0013ACFA /* ObbDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObbDetector.swift; sourceTree = "<group>"; };
+		19BDCD6D2E14FC6D0013ACFA /* ObjectDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetector.swift; sourceTree = "<group>"; };
+		19BDCD6E2E14FC6D0013ACFA /* Plot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plot.swift; sourceTree = "<group>"; };
+		19BDCD6F2E14FC6D0013ACFA /* PoseEstimater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseEstimater.swift; sourceTree = "<group>"; };
+		19BDCD702E14FC6D0013ACFA /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
+		19BDCD712E14FC6D0013ACFA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		19BDCD722E14FC6D0013ACFA /* Segmenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segmenter.swift; sourceTree = "<group>"; };
+		19BDCD732E14FC6D0013ACFA /* ThresholdProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdProvider.swift; sourceTree = "<group>"; };
+		19BDCD742E14FC6D0013ACFA /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		19BDCD752E14FC6D0013ACFA /* YOLO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLO.swift; sourceTree = "<group>"; };
+		19BDCD762E14FC6D0013ACFA /* YOLOCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOCamera.swift; sourceTree = "<group>"; };
+		19BDCD772E14FC6D0013ACFA /* YOLOResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOResult.swift; sourceTree = "<group>"; };
+		19BDCD782E14FC6D0013ACFA /* YOLOTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOTask.swift; sourceTree = "<group>"; };
+		19BDCD792E14FC6D0013ACFA /* YOLOView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOView.swift; sourceTree = "<group>"; };
 		9D8D982B2E12CF4600A8277B /* m_best.pt */ = {isa = PBXFileReference; lastKnownFileType = file; path = m_best.pt; sourceTree = "<group>"; };
 		9D8D982D2E12CF8500A8277B /* yolo11n.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = yolo11n.mlpackage; sourceTree = "<group>"; };
 		9D8D98352E12D5F500A8277B /* m_best.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = m_best.mlpackage; sourceTree = "<group>"; };
@@ -57,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19BDCD7C2E14FC800013ACFA /* YOLO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,9 +165,227 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19BDCD1C2E14F8760013ACFA /* ClassifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				19BDCD1B2E14F8760013ACFA /* .gitkeep */,
+			);
+			path = ClassifyModels;
+			sourceTree = "<group>";
+		};
+		19BDCD1E2E14F8760013ACFA /* DetectModels */ = {
+			isa = PBXGroup;
+			children = (
+				19BDCD1D2E14F8760013ACFA /* .gitkeep */,
+			);
+			path = DetectModels;
+			sourceTree = "<group>";
+		};
+		19BDCD202E14F8760013ACFA /* OBBModels */ = {
+			isa = PBXGroup;
+			children = (
+				19BDCD1F2E14F8760013ACFA /* .gitkeep */,
+			);
+			path = OBBModels;
+			sourceTree = "<group>";
+		};
+		19BDCD222E14F8760013ACFA /* PoseModels */ = {
+			isa = PBXGroup;
+			children = (
+				19BDCD212E14F8760013ACFA /* .gitkeep */,
+			);
+			path = PoseModels;
+			sourceTree = "<group>";
+		};
+		19BDCD242E14F8760013ACFA /* SegmentModels */ = {
+			isa = PBXGroup;
+			children = (
+				19BDCD232E14F8760013ACFA /* .gitkeep */,
+			);
+			path = SegmentModels;
+			sourceTree = "<group>";
+		};
+		19BDCD2F2E14F8760013ACFA /* YOLOiOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				19BDCD252E14F8760013ACFA /* AppDelegate.swift */,
+				19BDCD262E14F8760013ACFA /* Assets.xcassets */,
+				19BDCD272E14F8760013ACFA /* Info.plist */,
+				19BDCD282E14F8760013ACFA /* LaunchScreen.storyboard */,
+				19BDCD292E14F8760013ACFA /* Main.storyboard */,
+				19BDCD2A2E14F8760013ACFA /* ModelDownloadManager.swift */,
+				19BDCD2B2E14F8760013ACFA /* RemoteModels.swift */,
+				19BDCD2C2E14F8760013ACFA /* Settings.bundle */,
+				19BDCD2D2E14F8760013ACFA /* ultralytics_yolo_logotype.png */,
+				19BDCD2E2E14F8760013ACFA /* ViewController.swift */,
+			);
+			path = YOLOiOSApp;
+			sourceTree = "<group>";
+		};
+		19BDCD322E14F8760013ACFA /* YOLOiOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				19BDCD1C2E14F8760013ACFA /* ClassifyModels */,
+				19BDCD1E2E14F8760013ACFA /* DetectModels */,
+				19BDCD202E14F8760013ACFA /* OBBModels */,
+				19BDCD222E14F8760013ACFA /* PoseModels */,
+				19BDCD242E14F8760013ACFA /* SegmentModels */,
+				19BDCD2F2E14F8760013ACFA /* YOLOiOSApp */,
+				19BDCD302E14F8760013ACFA /* README.md */,
+				19BDCD312E14F8760013ACFA /* YOLOiOSApp.xcodeproj */,
+			);
+			name = YOLOiOSApp;
+			path = "yolo-ios-app-main/YOLOiOSApp";
+			sourceTree = "<group>";
+		};
+		19BDCD332E14F8760013ACFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19BDCD372E14F8760013ACFA /* YOLOiOSApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19BDCD392E14F8980013ACFA /* ClassifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				19BDCD382E14F8980013ACFA /* .gitkeep */,
+			);
+			path = ClassifyModels;
+			sourceTree = "<group>";
+		};
+		19BDCD3B2E14F8980013ACFA /* DetectModels */ = {
+			isa = PBXGroup;
+			children = (
+				19BDCD3A2E14F8980013ACFA /* .gitkeep */,
+			);
+			path = DetectModels;
+			sourceTree = "<group>";
+		};
+		19BDCD3D2E14F8980013ACFA /* OBBModels */ = {
+			isa = PBXGroup;
+			children = (
+				19BDCD3C2E14F8980013ACFA /* .gitkeep */,
+			);
+			path = OBBModels;
+			sourceTree = "<group>";
+		};
+		19BDCD3F2E14F8980013ACFA /* PoseModels */ = {
+			isa = PBXGroup;
+			children = (
+				19BDCD3E2E14F8980013ACFA /* .gitkeep */,
+			);
+			path = PoseModels;
+			sourceTree = "<group>";
+		};
+		19BDCD412E14F8980013ACFA /* SegmentModels */ = {
+			isa = PBXGroup;
+			children = (
+				19BDCD402E14F8980013ACFA /* .gitkeep */,
+			);
+			path = SegmentModels;
+			sourceTree = "<group>";
+		};
+		19BDCD4C2E14F8980013ACFA /* YOLOiOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				19BDCD422E14F8980013ACFA /* AppDelegate.swift */,
+				19BDCD432E14F8980013ACFA /* Assets.xcassets */,
+				19BDCD442E14F8980013ACFA /* Info.plist */,
+				19BDCD452E14F8980013ACFA /* LaunchScreen.storyboard */,
+				19BDCD462E14F8980013ACFA /* Main.storyboard */,
+				19BDCD472E14F8980013ACFA /* ModelDownloadManager.swift */,
+				19BDCD482E14F8980013ACFA /* RemoteModels.swift */,
+				19BDCD492E14F8980013ACFA /* Settings.bundle */,
+				19BDCD4A2E14F8980013ACFA /* ultralytics_yolo_logotype.png */,
+				19BDCD4B2E14F8980013ACFA /* ViewController.swift */,
+			);
+			path = YOLOiOSApp;
+			sourceTree = "<group>";
+		};
+		19BDCD4F2E14F8980013ACFA /* YOLOiOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				19BDCD392E14F8980013ACFA /* ClassifyModels */,
+				19BDCD3B2E14F8980013ACFA /* DetectModels */,
+				19BDCD3D2E14F8980013ACFA /* OBBModels */,
+				19BDCD3F2E14F8980013ACFA /* PoseModels */,
+				19BDCD412E14F8980013ACFA /* SegmentModels */,
+				19BDCD4C2E14F8980013ACFA /* YOLOiOSApp */,
+				19BDCD4D2E14F8980013ACFA /* README.md */,
+				19BDCD4E2E14F8980013ACFA /* YOLOiOSApp.xcodeproj */,
+			);
+			name = YOLOiOSApp;
+			path = "yolo-ios-app-main/YOLOiOSApp";
+			sourceTree = "<group>";
+		};
+		19BDCD502E14F8980013ACFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19BDCD542E14F8980013ACFA /* YOLOiOSApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19BDCD672E14FB770013ACFA /* YOLO */ = {
+			isa = PBXGroup;
+			children = (
+				19BDCD552E14FB770013ACFA /* BasePredictor.swift */,
+				19BDCD562E14FB770013ACFA /* BoundingBoxView.swift */,
+				19BDCD572E14FB770013ACFA /* Classifier.swift */,
+				19BDCD582E14FB770013ACFA /* NonMaxSuppression.swift */,
+				19BDCD592E14FB770013ACFA /* ObbDetector.swift */,
+				19BDCD5A2E14FB770013ACFA /* ObjectDetector.swift */,
+				19BDCD5B2E14FB770013ACFA /* Plot.swift */,
+				19BDCD5C2E14FB770013ACFA /* PoseEstimater.swift */,
+				19BDCD5D2E14FB770013ACFA /* Predictor.swift */,
+				19BDCD5E2E14FB770013ACFA /* README.md */,
+				19BDCD5F2E14FB770013ACFA /* Segmenter.swift */,
+				19BDCD602E14FB770013ACFA /* ThresholdProvider.swift */,
+				19BDCD612E14FB770013ACFA /* VideoCapture.swift */,
+				19BDCD622E14FB770013ACFA /* YOLO.swift */,
+				19BDCD632E14FB770013ACFA /* YOLOCamera.swift */,
+				19BDCD642E14FB770013ACFA /* YOLOResult.swift */,
+				19BDCD652E14FB770013ACFA /* YOLOTask.swift */,
+				19BDCD662E14FB770013ACFA /* YOLOView.swift */,
+			);
+			name = YOLO;
+			path = "yolo-ios-app-main/Sources/YOLO";
+			sourceTree = "<group>";
+		};
+		19BDCD7A2E14FC6D0013ACFA /* YOLO */ = {
+			isa = PBXGroup;
+			children = (
+				19BDCD682E14FC6D0013ACFA /* BasePredictor.swift */,
+				19BDCD692E14FC6D0013ACFA /* BoundingBoxView.swift */,
+				19BDCD6A2E14FC6D0013ACFA /* Classifier.swift */,
+				19BDCD6B2E14FC6D0013ACFA /* NonMaxSuppression.swift */,
+				19BDCD6C2E14FC6D0013ACFA /* ObbDetector.swift */,
+				19BDCD6D2E14FC6D0013ACFA /* ObjectDetector.swift */,
+				19BDCD6E2E14FC6D0013ACFA /* Plot.swift */,
+				19BDCD6F2E14FC6D0013ACFA /* PoseEstimater.swift */,
+				19BDCD702E14FC6D0013ACFA /* Predictor.swift */,
+				19BDCD712E14FC6D0013ACFA /* README.md */,
+				19BDCD722E14FC6D0013ACFA /* Segmenter.swift */,
+				19BDCD732E14FC6D0013ACFA /* ThresholdProvider.swift */,
+				19BDCD742E14FC6D0013ACFA /* VideoCapture.swift */,
+				19BDCD752E14FC6D0013ACFA /* YOLO.swift */,
+				19BDCD762E14FC6D0013ACFA /* YOLOCamera.swift */,
+				19BDCD772E14FC6D0013ACFA /* YOLOResult.swift */,
+				19BDCD782E14FC6D0013ACFA /* YOLOTask.swift */,
+				19BDCD792E14FC6D0013ACFA /* YOLOView.swift */,
+			);
+			name = YOLO;
+			path = "yolo-ios-app-main/Sources/YOLO";
+			sourceTree = "<group>";
+		};
 		9D8D98282E12CEDA00A8277B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				19BDCD672E14FB770013ACFA /* YOLO */,
+				19BDCD7A2E14FC6D0013ACFA /* YOLO */,
+				19BDCD4F2E14F8980013ACFA /* YOLOiOSApp */,
+				19BDCD322E14F8760013ACFA /* YOLOiOSApp */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -108,6 +414,7 @@
 		9DF2ABB02E12B8B2000EC00D /* hack_day */ = {
 			isa = PBXGroup;
 			children = (
+				19BDCD182E14F6D40013ACFA /* YOLOResultView.swift */,
 				9DF2ABB12E12B8B2000EC00D /* hack_dayApp.swift */,
 				9DF2ABB32E12B8B2000EC00D /* ContentView.swift */,
 				9DF2ABB52E12B8B3000EC00D /* Assets.xcassets */,
@@ -233,10 +540,20 @@
 			);
 			mainGroup = 9DF2ABA52E12B8B2000EC00D;
 			packageReferences = (
-				19BDCD172E14F58E0013ACFA /* XCLocalSwiftPackageReference "yolo-ios-app-main" */,
+				19BDCD1A2E14F7BB0013ACFA /* XCLocalSwiftPackageReference "yolo-ios-app-main" */,
 			);
 			productRefGroup = 9DF2ABAF2E12B8B2000EC00D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 19BDCD332E14F8760013ACFA /* Products */;
+					ProjectRef = 19BDCD312E14F8760013ACFA /* YOLOiOSApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 19BDCD502E14F8980013ACFA /* Products */;
+					ProjectRef = 19BDCD4E2E14F8980013ACFA /* YOLOiOSApp.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9DF2ABAD2E12B8B2000EC00D /* hack_day */,
@@ -245,6 +562,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		19BDCD372E14F8760013ACFA /* YOLOiOSApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = YOLOiOSApp.app;
+			remoteRef = 19BDCD362E14F8760013ACFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		19BDCD542E14F8980013ACFA /* YOLOiOSApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = YOLOiOSApp.app;
+			remoteRef = 19BDCD532E14F8980013ACFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9DF2ABAC2E12B8B2000EC00D /* Resources */ = {
@@ -280,6 +614,7 @@
 			files = (
 				9DF2ABB42E12B8B2000EC00D /* ContentView.swift in Sources */,
 				9D8D98362E12D5F500A8277B /* m_best.mlpackage in Sources */,
+				19BDCD192E14F6E10013ACFA /* YOLOResultView.swift in Sources */,
 				9DF2ABB22E12B8B2000EC00D /* hack_dayApp.swift in Sources */,
 				9D8D982E2E12CF8500A8277B /* yolo11n.mlpackage in Sources */,
 			);
@@ -606,11 +941,19 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		19BDCD172E14F58E0013ACFA /* XCLocalSwiftPackageReference "yolo-ios-app-main" */ = {
+		19BDCD1A2E14F7BB0013ACFA /* XCLocalSwiftPackageReference "yolo-ios-app-main" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = "yolo-ios-app-main";
 		};
 /* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		19BDCD7B2E14FC800013ACFA /* YOLO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19BDCD1A2E14F7BB0013ACFA /* XCLocalSwiftPackageReference "yolo-ios-app-main" */;
+			productName = YOLO;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9DF2ABA62E12B8B2000EC00D /* Project object */;
 }

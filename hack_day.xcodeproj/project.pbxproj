@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D8D982A2E12CEDA00A8277B /* YOLO in Frameworks */ = {isa = PBXBuildFile; productRef = 9D8D98292E12CEDA00A8277B /* YOLO */; };
 		9D8D982C2E12CF4600A8277B /* m_best.pt in Resources */ = {isa = PBXBuildFile; fileRef = 9D8D982B2E12CF4600A8277B /* m_best.pt */; };
 		9D8D982E2E12CF8500A8277B /* yolo11n.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D982D2E12CF8500A8277B /* yolo11n.mlpackage */; };
 		9D8D98362E12D5F500A8277B /* m_best.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D98352E12D5F500A8277B /* m_best.mlpackage */; };
@@ -58,7 +57,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D8D982A2E12CEDA00A8277B /* YOLO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +233,7 @@
 			);
 			mainGroup = 9DF2ABA52E12B8B2000EC00D;
 			packageReferences = (
-				9D8D98272E12CEC400A8277B /* XCRemoteSwiftPackageReference "yolo-ios-app" */,
+				19BDCD172E14F58E0013ACFA /* XCLocalSwiftPackageReference "yolo-ios-app-main" */,
 			);
 			productRefGroup = 9DF2ABAF2E12B8B2000EC00D /* Products */;
 			projectDirPath = "";
@@ -607,24 +605,12 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		9D8D98272E12CEC400A8277B /* XCRemoteSwiftPackageReference "yolo-ios-app" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ultralytics/yolo-ios-app";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		19BDCD172E14F58E0013ACFA /* XCLocalSwiftPackageReference "yolo-ios-app-main" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "yolo-ios-app-main";
 		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		9D8D98292E12CEDA00A8277B /* YOLO */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9D8D98272E12CEC400A8277B /* XCRemoteSwiftPackageReference "yolo-ios-app" */;
-			productName = YOLO;
-		};
-/* End XCSwiftPackageProductDependency section */
+/* End XCLocalSwiftPackageReference section */
 	};
 	rootObject = 9DF2ABA62E12B8B2000EC00D /* Project object */;
 }
